@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "e4731a1d-9d07-447c-8eae-54bcb13b7526",
+		"name": "Testing Tests",
+		"description": "Just a collection for testing tests.\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "IGN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "ign.com",
+					"host": [
+						"ign",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Amazon",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "amazon.com",
+					"host": [
+						"amazon",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reddit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "reddit.com",
+					"host": [
+						"reddit",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Postman",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get?test=123",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "test",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
